@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:iridium_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:iridium_dust"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/iridium"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:ores/iridium"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "thermal:iridium_dust",
+      "count": 2
+    },
+    {
+      "item": "thermal:iridium_dust",
+      "chance": 0.8
+    }
+  ],
+  "time": 200
+}

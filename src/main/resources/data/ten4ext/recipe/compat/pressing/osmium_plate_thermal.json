@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:osmium_plate"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:osmium_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/osmium"
+      }
+    }
+  ],
+  "type": "ten4:pressing",
+  "inputs": [
+    {
+      "item_tag": "c:ingots/osmium"
+    },
+    {
+      "item": "ten4:sheet_die",
+      "catalyst": true
+    }
+  ],
+  "outputs": [
+    {
+      "item": "thermal:osmium_plate"
+    }
+  ],
+  "time": 100
+}

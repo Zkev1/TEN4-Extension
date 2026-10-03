@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "TCT",
+    " G "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "T": {
+      "item": "ten4:tin_plate"
+    },
+    "C": {
+      "item": "ten4:circuit"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "result": {
+    "id": "ten4ext:vacuum_augment",
+    "count": 1
+  }
+}

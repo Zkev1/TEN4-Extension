@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "mekanism:dust_uranium"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:uranium_dust"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "thermal:uranium_dust"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/uranium"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:raw_materials/uranium"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "mekanism:dust_uranium"
+    },
+    {
+      "item": "mekanism:dust_uranium",
+      "chance": 0.4
+    }
+  ],
+  "time": 100
+}

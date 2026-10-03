@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IBI",
+    "XCX",
+    "IPI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:packed_ice"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "X": {
+      "item": "ten4:circuit"
+    },
+    "C": {
+      "item": "ten4:device_casing"
+    },
+    "P": {
+      "item": "ten4:iron_plate"
+    }
+  },
+  "result": {
+    "id": "ten4ext:solidifier",
+    "count": 1
+  }
+}

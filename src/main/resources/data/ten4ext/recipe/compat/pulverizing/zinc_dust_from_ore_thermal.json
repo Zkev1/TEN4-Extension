@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:zinc_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:zinc_dust"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/zinc"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:ores/zinc"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "thermal:zinc_dust",
+      "count": 2
+    },
+    {
+      "item": "thermal:zinc_dust",
+      "chance": 0.8
+    }
+  ],
+  "time": 200
+}

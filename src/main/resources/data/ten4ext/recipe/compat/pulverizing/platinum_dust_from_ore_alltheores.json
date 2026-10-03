@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "alltheores:platinum_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/platinum"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:ores/platinum"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "alltheores:platinum_dust",
+      "count": 2
+    },
+    {
+      "item": "alltheores:platinum_dust",
+      "chance": 0.8
+    }
+  ],
+  "time": 200
+}

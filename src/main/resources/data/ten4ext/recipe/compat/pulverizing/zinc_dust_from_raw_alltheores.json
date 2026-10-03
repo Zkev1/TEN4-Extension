@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "alltheores:zinc_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/zinc"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:raw_materials/zinc"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "alltheores:zinc_dust"
+    },
+    {
+      "item": "alltheores:zinc_dust",
+      "chance": 0.4
+    }
+  ],
+  "time": 100
+}

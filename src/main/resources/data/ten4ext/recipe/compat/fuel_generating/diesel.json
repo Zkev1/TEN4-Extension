@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "immersivepetroleum"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "pneumaticcraft"
+        }
+      ]
+    }
+  ],
+  "type": "ten4:fuel_generating",
+  "inputs": [
+    {
+      "fluid_tag": "c:diesel",
+      "amount": 10
+    }
+  ],
+  "outputs": [],
+  "time": 375
+}

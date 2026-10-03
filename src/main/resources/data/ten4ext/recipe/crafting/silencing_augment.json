@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "WCW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "C": {
+      "item": "ten4:circuit"
+    }
+  },
+  "result": {
+    "id": "ten4ext:silencing_augment",
+    "count": 1
+  }
+}

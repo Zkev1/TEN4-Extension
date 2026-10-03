@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:solidifying",
+  "inputs": [
+    {
+      "fluid_tag": "c:water",
+      "amount": 1000
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "time": 100
+}

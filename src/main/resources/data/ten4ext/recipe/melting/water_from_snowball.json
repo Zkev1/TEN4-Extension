@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:melting",
+  "inputs": [
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "outputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "time": 30
+}

@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:melting",
+  "inputs": [
+    {
+      "item_tag": "c:obsidians"
+    }
+  ],
+  "outputs": [
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "time": 800
+}

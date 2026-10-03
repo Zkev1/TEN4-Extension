@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:solidifying",
+  "inputs": [
+    {
+      "fluid_tag": "c:lava",
+      "amount": 1000
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "time": 200
+}

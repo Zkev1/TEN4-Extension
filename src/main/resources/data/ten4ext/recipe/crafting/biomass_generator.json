@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SLS",
+    "XCX",
+    "IFI"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:saplings"
+    },
+    "L": {
+      "tag": "minecraft:leaves"
+    },
+    "X": {
+      "item": "ten4:circuit"
+    },
+    "C": {
+      "item": "ten4:device_casing"
+    },
+    "I": {
+      "item": "ten4:iron_plate"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "id": "ten4ext:biomass_generator",
+    "count": 1
+  }
+}

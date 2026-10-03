@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:melting",
+  "inputs": [
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "outputs": [
+    {
+      "fluid": "ten4:liquid_experience",
+      "amount": 140
+    }
+  ],
+  "time": 60
+}

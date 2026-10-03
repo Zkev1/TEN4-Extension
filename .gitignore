@@ -1,0 +1,11 @@
+build/
+.gradle/
+run/
+.idea/
+out/
+*.iml
+libs/*.jar
+
+# local only (contain TEN4 textures)
+screenshots/
+logo/

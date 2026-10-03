@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "ten4:block/device/device_side",
+    "north": "ten4:block/device/smelter",
+    "south": "ten4:block/device/device_side",
+    "east": "ten4:block/device/device_side",
+    "west": "ten4:block/device/device_side",
+    "up": "ten4:block/device/device_top",
+    "down": "ten4:block/device/device_bottom",
+    "screen": "ten4ext:block/device/solar_generator_overlay",
+    "cells": "ten4ext:block/device/solar_cells"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#north",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#south",
+          "cullface": "south"
+        },
+        "east": {
+          "texture": "#east",
+          "cullface": "east"
+        },
+        "west": {
+          "texture": "#west",
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#up",
+          "cullface": "up"
+        },
+        "down": {
+          "texture": "#down",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#screen",
+          "cullface": "north"
+        },
+        "up": {
+          "texture": "#cells",
+          "cullface": "up"
+        }
+      }
+    }
+  ]
+}

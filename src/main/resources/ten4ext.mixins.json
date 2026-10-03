@@ -1,0 +1,33 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.ten4ext.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "com.ten4ext.mixin.Ten4ExtMixinPlugin",
+  "mixins": [
+    "AugmentableDeviceBlockEntityMixin",
+    "BridgedEntityBlockMixin",
+    "DeviceConfigPayloadMixin",
+    "DeviceItemMixin",
+    "DuctBlockMixin",
+    "EnergyUnitEnergyHandlerMixin",
+    "FluidInventoryMixin",
+    "FluidTankMixin",
+    "IoFacePayloadMixin",
+    "LiquidUnitBlockEntityMixin",
+    "LiquidUnitFluidHandlerMixin",
+    "SigmodePayloadMixin",
+    "VoidUnitBlockMixin",
+    "WrenchItemMixin"
+  ],
+  "client": [
+    "client.IoFaceButtonMixin",
+    "client.IoFlagReaderMixin",
+    "client.IoPanelMixin",
+    "client.IoTypeButtonMixin",
+    "client.JeiModCategoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

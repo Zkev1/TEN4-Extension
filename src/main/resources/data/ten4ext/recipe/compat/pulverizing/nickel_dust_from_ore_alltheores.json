@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "alltheores:nickel_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/nickel"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:ores/nickel"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "alltheores:nickel_dust",
+      "count": 2
+    },
+    {
+      "item": "alltheores:nickel_dust",
+      "chance": 0.8
+    }
+  ],
+  "time": 200
+}

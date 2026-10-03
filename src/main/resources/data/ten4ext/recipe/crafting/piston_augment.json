@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "I": {
+      "item": "ten4:iron_plate"
+    },
+    "C": {
+      "item": "ten4:circuit"
+    }
+  },
+  "result": {
+    "id": "ten4ext:piston_augment",
+    "count": 1
+  }
+}

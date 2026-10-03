@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TGT",
+    "GCG",
+    "TGT"
+  ],
+  "key": {
+    "T": {
+      "item": "ten4:titanium_plate"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "C": {
+      "item": "ten4:circuit"
+    }
+  },
+  "result": {
+    "id": "ten4ext:tank_augment",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "WCW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "ten4:copper_plate"
+    },
+    "C": {
+      "item": "ten4:circuit"
+    }
+  },
+  "result": {
+    "id": "ten4ext:coil_augment",
+    "count": 1
+  }
+}

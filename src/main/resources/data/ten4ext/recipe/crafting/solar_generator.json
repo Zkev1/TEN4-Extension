@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "DCD",
+    "TXT"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "D": {
+      "item": "minecraft:daylight_detector"
+    },
+    "C": {
+      "item": "ten4:device_casing"
+    },
+    "T": {
+      "item": "ten4:tin_plate"
+    },
+    "X": {
+      "item": "ten4:circuit"
+    }
+  },
+  "result": {
+    "id": "ten4ext:solar_generator",
+    "count": 1
+  }
+}

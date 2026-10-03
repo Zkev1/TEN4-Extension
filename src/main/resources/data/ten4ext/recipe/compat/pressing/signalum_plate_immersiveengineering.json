@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "immersiveengineering:plate_signalum"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:signalum_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "thermal:signalum_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/signalum"
+      }
+    }
+  ],
+  "type": "ten4:pressing",
+  "inputs": [
+    {
+      "item_tag": "c:ingots/signalum"
+    },
+    {
+      "item": "ten4:sheet_die",
+      "catalyst": true
+    }
+  ],
+  "outputs": [
+    {
+      "item": "immersiveengineering:plate_signalum"
+    }
+  ],
+  "time": 100
+}

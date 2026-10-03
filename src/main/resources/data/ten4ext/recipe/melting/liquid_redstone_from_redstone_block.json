@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:melting",
+  "inputs": [
+    {
+      "item_tag": "c:storage_blocks/redstone"
+    }
+  ],
+  "outputs": [
+    {
+      "fluid": "ten4:liquid_redstone",
+      "amount": 900
+    }
+  ],
+  "time": 600
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NBN",
+    "XCX",
+    "NBN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_bricks"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "X": {
+      "item": "ten4:circuit"
+    },
+    "C": {
+      "item": "ten4:device_casing"
+    }
+  },
+  "result": {
+    "id": "ten4ext:crucible",
+    "count": 1
+  }
+}

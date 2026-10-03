@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "ten4ext:solar_generator",
+    "ten4ext:biomass_generator",
+    "ten4ext:farm_manager",
+    "ten4ext:crucible",
+    "ten4ext:solidifier",
+    "ten4ext:titanium_energy_duct",
+    "ten4ext:titanium_item_duct",
+    "ten4ext:titanium_fluid_duct"
+  ]
+}

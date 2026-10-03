@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "immersiveengineering:plate_invar"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:invar_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "thermal:invar_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/invar"
+      }
+    }
+  ],
+  "type": "ten4:pressing",
+  "inputs": [
+    {
+      "item_tag": "c:ingots/invar"
+    },
+    {
+      "item": "ten4:sheet_die",
+      "catalyst": true
+    }
+  ],
+  "outputs": [
+    {
+      "item": "immersiveengineering:plate_invar"
+    }
+  ],
+  "time": 100
+}

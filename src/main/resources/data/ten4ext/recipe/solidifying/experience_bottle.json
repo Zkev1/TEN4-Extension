@@ -1,0 +1,18 @@
+{
+  "type": "ten4ext:solidifying",
+  "inputs": [
+    {
+      "fluid": "ten4:liquid_experience",
+      "amount": 140
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "time": 60
+}

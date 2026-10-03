@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:osmium_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:osmium_dust"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/osmium"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:ores/osmium"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "thermal:osmium_dust",
+      "count": 2
+    },
+    {
+      "item": "thermal:osmium_dust",
+      "chance": 0.8
+    }
+  ],
+  "time": 200
+}

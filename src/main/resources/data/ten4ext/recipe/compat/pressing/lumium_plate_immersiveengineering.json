@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "immersiveengineering:plate_lumium"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "alltheores:lumium_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "thermal:lumium_plate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/lumium"
+      }
+    }
+  ],
+  "type": "ten4:pressing",
+  "inputs": [
+    {
+      "item_tag": "c:ingots/lumium"
+    },
+    {
+      "item": "ten4:sheet_die",
+      "catalyst": true
+    }
+  ],
+  "outputs": [
+    {
+      "item": "immersiveengineering:plate_lumium"
+    }
+  ],
+  "time": 100
+}

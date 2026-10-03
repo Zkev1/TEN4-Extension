@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HWH",
+    "XCX",
+    "IPI"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:iron_hoe"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": {
+      "item": "ten4:circuit"
+    },
+    "C": {
+      "item": "ten4:device_casing"
+    },
+    "I": {
+      "item": "ten4:iron_plate"
+    },
+    "P": {
+      "item": "minecraft:composter"
+    }
+  },
+  "result": {
+    "id": "ten4ext:farm_manager",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TTT",
+    "DDD",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "ten4:titanium_plate"
+    },
+    "D": {
+      "item": "ten4:copper_item_duct"
+    }
+  },
+  "result": {
+    "id": "ten4ext:titanium_item_duct",
+    "count": 3
+  }
+}

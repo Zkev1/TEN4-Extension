@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:solidifying",
+  "inputs": [
+    {
+      "fluid": "ten4:liquid_redstone",
+      "amount": 100
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "time": 80
+}

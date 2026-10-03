@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ten4ext:titanium_energy_duct",
+    "ten4ext:titanium_item_duct",
+    "ten4ext:titanium_fluid_duct"
+  ]
+}

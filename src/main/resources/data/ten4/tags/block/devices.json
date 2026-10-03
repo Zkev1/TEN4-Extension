@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ten4ext:solar_generator",
+    "ten4ext:biomass_generator",
+    "ten4ext:farm_manager",
+    "ten4ext:crucible",
+    "ten4ext:solidifier"
+  ]
+}

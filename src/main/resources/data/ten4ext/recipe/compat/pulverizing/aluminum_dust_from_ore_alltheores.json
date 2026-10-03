@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "alltheores:aluminum_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/aluminum"
+      }
+    }
+  ],
+  "type": "ten4:pulverizing",
+  "inputs": [
+    {
+      "item_tag": "c:ores/aluminum"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "alltheores:aluminum_dust",
+      "count": 2
+    },
+    {
+      "item": "alltheores:aluminum_dust",
+      "chance": 0.8
+    }
+  ],
+  "time": 200
+}

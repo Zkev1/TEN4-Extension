@@ -1,0 +1,15 @@
+{
+  "type": "ten4ext:melting",
+  "inputs": [
+    {
+      "item": "ten4:monazite"
+    }
+  ],
+  "outputs": [
+    {
+      "fluid": "ten4:toran_concentrate",
+      "amount": 100
+    }
+  ],
+  "time": 300
+}
